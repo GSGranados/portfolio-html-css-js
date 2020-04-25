@@ -3,13 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Rosie Ellis</title>
+    <title>Steven Granados</title>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
       integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
       crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lemon&family=Sriracha&display=swap"
+      rel="stylesheet"
     />
     <link rel="stylesheet" href="main.css" />
   </head>
@@ -45,30 +49,32 @@
           <div class="about-heading">
             <h1>About</h1>
             <h6>Myself</h6>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis
-              esse dolor omnis consequatur, voluptatem rem mollitia
-              reprehenderit odit facere perspiciatis commodi quaerat
-              necessitatibus, voluptatibus sed ducimus aut quidem! Laborum,
-              molestias.
-            </p>
           </div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis esse
+            dolor omnis consequatur, voluptatem rem mollitia reprehenderit odit
+            facere perspiciatis commodi quaerat necessitatibus, voluptatibus sed
+            ducimus aut quidem! Laborum, molestias.
+          </p>
           <div class="social-media">
             <ul class="nav-list">
               <li>
                 <a href="#" class="icon-link"
                   ><i class="fab fa-facebook-square"></i
-                ></a>
+                >
+              </a>
               </li>
               <li>
                 <a href="#" class="icon-link"
                   ><i class="fab fa-twitter-square"></i
-                ></a>
+                >
+              </a>
               </li>
               <li>
                 <a href="#" class="icon-link"
                   ><i class="fab fa-github-square"></i
-                ></a>
+                >
+              </a>
               </li>
             </ul>
           </div>
@@ -94,7 +100,7 @@
           </div>
           <div class="skill">
             <div class="icon-container">
-              <i class="fas fa-code-group"></i>
+              <i class="fas fa-code"></i>
             </div>
             <h1>Web Development</h1>
             <p>
@@ -104,7 +110,7 @@
           </div>
           <div class="skill">
             <div class="icon-container">
-              <i class="fas fa-chart-group"></i>
+              <i class="fas fa-chart-area"></i>
             </div>
             <h1>Project Management</h1>
             <p>
@@ -121,9 +127,120 @@
           <h1>Portfolio</h1>
           <h6>View Some of my recent work</h6>
         </div>
+        <div class="portfolio-item">
+          <img src="images/portitem1.jpeg" alt="" class="portfolio-img" />
+          <div class="portfolio-description">
+            <h6>Web Development</h6>
+            <h1>COVID-19 Tracker</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
+              ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+            <a href="#" class="cta">View Details</a>
+          </div>
+        </div>
+        <div class="portfolio-item">
+          <div class="portfolio-description">
+            <h6>Web Development</h6>
+            <h1>USGS Quake Searcher</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
+              ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+            <a href="#" class="cta">View Details</a>
+          </div>
+          <img src="images/portitem2.jpeg" alt="" class="portfolio-img" />
+        </div>
+        <div class="portfolio-item">
+          <img src="images/portitem3.jpeg" alt="" class="portfolio-img" />
+          <div class="portfolio-description">
+            <h6>Web Development</h6>
+            <h1>Oracle-Firebase</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
+              ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+            <a href="#" class="cta">View Details</a>
+          </div>
+        </div>
       </div>
     </section>
-
+    <section class="experience" id="experience">
+      <div class="container">
+        <div class="section-heading">
+          <h1>Experience</h1>
+          <h6>Past and current jobs</h6>
+        </div>
+        <div class="timeline">
+          <ul>
+            <li class="date" data-date="2018">
+              <h1>Avalogics</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
+                ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+            </li>
+            <li class="date" data-date="2019-2020">
+              <h1>Telus international - Google Tech</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
+                ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+            </li>
+            <li class="date" data-date="2020-present">
+              <h1>Focus Services - ITO</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
+                ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="section-heading">
+          <h1>Contact</h1>
+          <h6>Let's work together</h6>
+        </div>
+        <form action="">
+          <label for="name">Name:</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Enter your name:"
+            required
+          />
+          <label for="email">Email:</label>
+          <input
+            type="text"
+            name="email"
+            id="email"
+            placeholder="Enter your email:"
+            required
+          />
+          <label for="service">Service:</label>
+          <select name="service" id="service">
+            <option value="web-design">Web Design</option>
+            <option value="web-development">Web Development</option>
+            <option value="web-design-development"
+              >Web Design/Development</option
+            >
+          </select>
+          <label for="subject">Subject:</label>
+          <textarea name="subject" id="subject" cols="10" rows="10"></textarea>
+          <button type="submit">Get in touch with me!</button>
+        </form>
+      </div>
+    </section>
+    <footer class="copyright">
+      <div class="up" id="up">
+        <i class="fas fa-chevron-up"></i>
+        <p>&copy; Steven Granados</p>
+      </div>
+    </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="main.js"></script>
